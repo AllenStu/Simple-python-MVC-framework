@@ -1,2 +1,3 @@
 TurboGears2
 setuptools
+google-cloud

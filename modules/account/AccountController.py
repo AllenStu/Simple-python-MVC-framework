@@ -1,7 +1,7 @@
 from tg import TGController, expose
 
 from modules.home.homeService import HomeService
-from packages.tg.controllers.util import redirect
+from tg.controllers.util import redirect
 
 class AccountController(TGController):
 
