@@ -2,6 +2,8 @@ from tg import TGController, expose
 
 from modules.home.homeService import HomeService
 from tg.controllers.util import redirect
+from google.appengine.api import users
+
 
 class HomeController(TGController):
 
