@@ -6,4 +6,4 @@ from tg import AppConfig
 from main import MainController
 
 config = AppConfig(minimal=True, root_controller=MainController())
-main = config.make_wsgi_app()
+app = config.make_wsgi_app()
